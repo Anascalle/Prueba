@@ -1,0 +1,113 @@
+.nav_bar3 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    -webkit-box-shadow: 1px -5px 15px 7px rgba(128,128,128,0.39);
+    -moz-box-shadow: 1px -5px 15px 7px rgba(128,128,128,0.39);
+    box-shadow: 1px -5px 15px 7px rgba(128,128,128,0.39);
+    z-index: 3;
+    background-color: white;
+  
+    
+} 
+  .app_name{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #00B78C;
+  }
+  .nav_links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-left: 5%;
+    padding: 0;
+    flex-grow: 1; 
+    justify-content: flex-start; 
+  }
+  
+  .nav_links li {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  .nav_links a {
+    text-decoration: none;
+    font-family: "Poppins", system-ui;
+    font-style: normal;
+    color: rgb(49, 49, 49);
+  }
+  
+  .nav_links a:hover {
+    color: #00B78C;
+  }
+  
+#porfile_img_nav{
+    width: 3vw;
+  }
+
+#user_name_nav{
+    text-decoration: none;
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    color: rgb(49, 49, 49);
+    margin-left: 2vw;
+    font-size: 1rem;
+    margin-right: 4vw;
+  }
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  /* Para pantallas tipo tablet */
+  .nav_bar2 {
+    flex-direction: row;
+    padding: 5vw;
+    margin-top: 40vw;
+    position: fixed;
+  }
+
+  .app_name {
+    font-size: 30px;
+  }
+
+  .nav_links {
+    justify-content: center;
+    gap: 15px;
+    margin-left: 0;
+  }
+
+  #porfile_img_nav {
+    width: 8vw;
+  }
+
+  #user_name_nav {
+    font-size: 0.9rem;
+    margin-right: 2vw;
+  }
+}
+@media (max-width: 480px) {
+  .app_name {
+    font-size: 24px;
+    margin-right: 1vw;
+  }
+
+  .nav_links {
+    display: none; /* Oculta los enlaces en pantallas pequeñas */
+  }
+
+  #porfile_img_nav {
+    width: 10vw; 
+    display: block;
+    margin-right: 10vw;
+  }
+
+  #user_name_nav {
+    display: none;
+  }
+}
+

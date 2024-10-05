@@ -1,0 +1,174 @@
+@media (min-width: 740px){
+    .InfoCard {
+        width: 70vw;
+        margin: 0 auto;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        background-color: white;
+        border-radius: 5vw 5vw 0vw 0vw;
+        box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
+        border: 0.05vw solid #F24B4B;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .ImgBanner img {
+        width: 65vw;
+        height: 38vh;
+        object-fit: cover;
+        border-radius: 0vw 0vw 2vw 2vw;
+    }
+    
+    .NameEvent {
+        justify-content: center;
+        display: flex;
+        gap: 2vw;
+        align-items: center;
+        margin-top: 3vh;
+    }
+    
+    .NameEvent h1 {
+        font-size: 2vw;
+        color: #0E0D35;
+    }
+    
+    .NameEvent button {
+        width: 2vw;
+        height: 2vw;
+        background-color: #2eae85;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .BtnImg{
+        width: 1.2vw;
+        height: auto;
+        margin-top: 0.5vh;
+    }
+    
+    .Host p {
+        display: flex;
+        justify-content: center;
+        font-size: 1.1vw;
+        color: #0E0D35;
+        margin-top: 1vh;
+        margin-bottom: 3vh;
+    }
+    
+    .label {
+        font-weight: bold;
+    }
+    
+    .InfoSections{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 65vw;
+    }
+    
+    .InfoSecttion1, .InfoSecttion2 {
+        font-size: 1.2vw; 
+        width: 45%; 
+        overflow-wrap: break-word; 
+        word-wrap: break-word; 
+    }
+    
+    .InfoSecttion1 p, .InfoSecttion2 p {
+        margin: 0.5vh 0; 
+        line-height: 1.5; 
+    }
+    
+    .InfoSecttion2 p:last-child {
+        white-space: normal; 
+        overflow-wrap: break-word;
+    }
+    
+    .FunctionBtns {
+        margin-top: 2vh;
+    }
+}
+
+    @media (max-width: 360px) {
+        .InfoCard {
+        width: 90%;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 20px 20px 0 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-width: 1px;
+        border: 0.05vw solid #F24B4B;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+    
+        .ImgBanner img {
+        width: 60vw;
+        height: 30vh;
+        border-radius: 0 0 20px 20px;
+        }
+    
+        .NameEvent {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin-top: 2vh;
+        }
+    
+        .NameEvent h1 {
+        font-size: 20px;
+        text-align: center;
+        }
+    
+        .NameEvent button {
+        width: 10vw;
+        height: 4vh;
+        background-color: #2eae85;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        }
+    
+        .BtnImg {
+        width: 16px;
+        margin-top: 4px;
+        }
+    
+        .Host p {
+        font-size: 12px;
+        margin-top: 1vh;
+        margin-bottom: 2vh;
+        }
+    
+        .InfoSections {
+        flex-direction: column;
+        width: 70vw;
+        }
+
+        .InfoSecttion1 p{
+            font-size: 14px;
+            margin-top: 1vh;
+            overflow-wrap: break-word; 
+            word-wrap: break-word; 
+        }
+    }
+
+    .InfoSecttion2 p {
+        font-size: 14px;
+        margin-top: 1vh;
+        overflow-wrap: break-word; 
+    }
+
+    .InfoSecttion1 p strong{
+        margin-right: 5px;
+    }
+
+    .InfoSecttion2 p strong {
+        margin-right: 20px;
+    }
+    
+    .FunctionBtns {
+        margin-top: 2vh;
+    }

@@ -1,0 +1,18 @@
+#MessageSpace{
+    text-decoration: none;
+    font-family: "Poppins", system-ui;
+    font-style: normal;
+    color: #0E0D35;
+    margin-bottom: 2em;
+}
+
+#infoWithLink{
+    display: flex;
+}
+
+@media (max-width: 400px) {
+
+    #register_message{
+        font-size: 15px !important;
+    }
+}

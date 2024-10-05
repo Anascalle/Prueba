@@ -1,0 +1,69 @@
+@media (min-width: 900px) {
+    .registerSpace{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    #registerForm{
+        width: 75%;
+    }
+    
+    #SignImg{
+        width: 60%;
+        object-fit: cover;
+    }
+    
+    #SignSpace{
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+    }
+    #disSign1{
+        display: none;
+    }
+
+    #disSign2{
+        display: none;
+    }
+    }
+    @media (max-width: 899px) {
+        .registerSpace{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    
+        #registerForm{
+            width: 75%;
+        }
+    
+        #SignImg{
+            display: none;
+        }
+    
+        #SignSpace{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    
+    
+        #SignNavH1{
+            color: #00B78C;
+        }
+
+        #disSign1{
+            display: none;
+        }
+
+        #disSign2{
+            display: none;
+        }
+    }

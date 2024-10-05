@@ -1,0 +1,115 @@
+#Guest_card {
+    border-radius: 20px;
+    margin-top: -40vw;
+    margin-left: 22vw;
+    margin-top: 1vw;
+    width: 60vw;
+  }
+  
+  #event_img {
+    width: 20vw;
+    height: 9vw;
+    border-radius: 10px;
+  }
+  
+  .swiper-slide {
+    margin: 0;
+  }
+  
+  #Guest_events {
+    border-color: rgb(0, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 1vw;
+    margin: 2vw;
+    width: 14vw;
+    background-color: white;
+  }
+  
+  #carousel {
+    width: 65vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #Guest_tittles {
+    display: flex;
+    justify-content: left;
+    margin-bottom: -1vw;
+    margin-left: 2vw;
+  }
+  
+  @media (max-width: 768px) {
+    /* En pantallas pequeñas, solo se muestra una slide a la vez */
+    #buttons_event {
+      display: flex;
+      justify-self: left;
+    }
+  
+    #Guest_card {
+      border-radius: 10px;
+      margin-top: 170vw;
+      margin-left: 22vw;
+      margin-right: 22vw;
+      position: absolute;
+    }
+  
+    #no_events {
+      font-size: large;
+      display: flex;
+      justify-self: center;
+    }
+    #ocation_event {
+      font-size: larger;
+      display: flex;
+      justify-self: left;
+    }
+    #date_event {
+      font-size: large !important;
+      display: flex;
+      justify-self: left;
+    }
+  
+    .swiper-slide swiper-slide-active {
+      width: 100%;
+    }
+  
+    .swiper-slide {
+      margin: 0;
+    }
+  
+    #Guest_events {
+      border-color: rgb(0, 255, 255);
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 20px;
+      padding: 3vw;
+      margin: 10vw;
+      width: 70vw;
+      height: 80vw;
+      margin-left: 0vw;
+    }
+  
+    #carousel {
+      height: auto !important;
+      width: auto;
+      display: flex;
+      flex-direction: row;
+    }
+  
+    #event_img {
+      width: 70vw !important;
+      height: 50vw !important;
+      border-radius: 10px;
+    }
+  
+    #Guest_tittle {
+      display: flex;
+      justify-content: left;
+      margin-bottom: -1vw;
+      margin-left: 2vw;
+      font-size: larger;
+    }
+  }

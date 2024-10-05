@@ -1,0 +1,39 @@
+#inputSpace{
+    text-decoration: none;
+    font-family: "Poppins", system-ui;
+    font-style: normal;
+    color: #0E0D35;
+    margin-bottom: 2em;
+    
+}
+
+.theRegisterInput{
+    border-style: none;
+    margin-left: 0.8em;
+    width: 80%;
+    outline: none
+}
+
+#lineaHorizontal{
+    border-color: #00B78C;
+    border-style: solid;
+}
+
+#img-Input{
+    display: flex;
+    align-items: center;
+}
+
+.inputs_p{
+    font-size: 15px !important;
+    margin-top: 10px;
+    font-weight: bolder;
+    color: #00B78C;
+}
+
+@media (max-width: 899px) {
+    .inputs_p{
+        font-size: 15px !important;
+        
+    }
+}

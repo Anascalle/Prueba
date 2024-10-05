@@ -1,0 +1,16 @@
+.login-buttons{
+    margin-left: 1em;
+    background-color: rgba(240, 248, 255, 0);
+    color: #00B78C;
+    font-weight: bolder;
+    border-style: none;
+}
+
+.login-buttons:hover{
+    color: #01795d;
+    cursor: pointer;
+}
+
+.login-buttons:active{
+    color: #ff7f4c;
+}

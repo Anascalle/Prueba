@@ -1,0 +1,56 @@
+.FunctionBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+    margin-top: 2vh;
+    padding: 1vw 0;
+    border-radius: 0.2vw;
+}
+
+.FunctionBtn button {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 8vw;
+    height: 8vh;
+    background-color: #00B78C;
+    border: none;
+    border-radius: 0.5vw;
+    font-size: 1vw;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.FunctionBtn button:hover {
+    background-color: rgb(7, 108, 75);
+}
+
+.FunctionBtn button img {
+    width: 1.5vw;
+    height: auto;
+    margin-bottom: 0.5vh;
+}
+
+@media (max-width: 360px) {
+    .FunctionBtn {
+      gap: 4vh;
+      padding: 2vh;
+      margin-top: 1vh;
+      border-radius: 1vh;
+    }
+  
+    .FunctionBtn button {
+      width: 15vw;
+      height: 6vh;
+      font-size: 1.3vh;
+      border-radius: 10px;
+    }
+  
+    .FunctionBtn button img {
+      width: 2vh;
+      margin-bottom: 2px;
+    }
+  }

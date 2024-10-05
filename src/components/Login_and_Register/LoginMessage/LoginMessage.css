@@ -1,0 +1,35 @@
+#MessageLogSpace{
+    text-decoration: none;
+    font-family: "Poppins", system-ui;
+    font-style: normal;
+    color: #0E0D35;
+    margin-bottom: 2em;
+}
+
+#infoWithLinkLog{
+    display: flex;
+}
+
+@media (max-width: 899px) {
+    #MessageLogSpace{
+        text-decoration: none;
+        font-family: "Poppins", system-ui;
+        font-style: normal;
+        color: #0E0D35;
+        margin-bottom: 2em !important;
+        font-size: 2000px;
+
+    }
+
+    #message_space{
+        margin-bottom: 25px;
+    }
+
+    .login_message{
+        font-size: 15px !important;
+    }
+
+    #infoWithLinkLog{
+        display: flex;
+    }
+}

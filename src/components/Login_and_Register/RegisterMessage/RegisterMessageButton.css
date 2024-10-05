@@ -1,0 +1,24 @@
+.register-buttons{
+    margin-left: 1em;
+    background-color: rgba(240, 248, 255, 0);
+    color: #00B78C;
+    font-weight: bolder;
+    border-style: none;
+}
+
+.register-buttons:hover{
+    color: #01795d;
+    cursor: pointer;
+}
+
+.register-buttons:active{
+    color: #ff7f4c;
+}
+
+
+@media (min-width: 300px) {
+
+    .register-buttons{
+        font-size: 15px !important;
+    }
+}

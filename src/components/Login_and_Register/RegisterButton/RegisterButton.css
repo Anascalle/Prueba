@@ -1,0 +1,24 @@
+.theRegisterBtn{
+    text-decoration: none;
+    font-family: "Poppins", system-ui;
+    font-style: normal;
+    color: #FFFFFF;
+    background-color: #00B78C;
+    border-style: none;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 0.7em;
+}
+
+.theRegisterBtn:hover{
+    background-color: #01795d;
+    color: #FFFFFF;
+cursor: pointer;
+}
+
+.theRegisterBtn:active{
+    background-color: #FFFFFF;
+    color: #00B78C;
+}

@@ -1,0 +1,71 @@
+.registerSpace{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#loginForm{
+    width: 75%;
+}
+
+#LogImg{
+    width: 60%;
+}
+
+#LogSpace{
+    display: flex;
+    flex-direction: row;
+}
+#disLog1{
+    display: none;
+}
+
+#disLog2{
+    display: none;
+}
+
+.errorMessage{
+    margin-top: -0.5em;
+    color: red;
+    margin-bottom: 1em;
+}
+
+@media (max-width: 899px) {
+    .registerSpace{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    #loginForm{
+        width: 75%;
+    }
+
+    #LogImg{
+        display: none;
+        object-fit: cover;
+    }
+
+    #LogSpace{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    #disLog1{
+        display: none;
+    }
+
+    #disLog2{
+        display: none;
+    }
+
+    #LogNavH1{
+        color: #00B78C;
+    }
+}

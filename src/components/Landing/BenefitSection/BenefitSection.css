@@ -1,0 +1,31 @@
+.benefits_container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .benefit_item {
+    flex: 1; 
+    padding: 20px; 
+    text-align: center; 
+    color: white;
+    font-family: "Poppins", system-ui;
+    font-style: normal;
+  }
+  @media (max-width: 768px) {
+    .benefits_container {
+        flex-direction: column; 
+    }
+
+    .benefit_item {
+        flex: none; 
+    }
+  }
+  @media (max-width: 375px) {
+    .benefits_container {
+        flex-direction: column; 
+    }
+
+    .benefit_item {
+        flex: none; 
+    }
+}

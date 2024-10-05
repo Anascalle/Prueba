@@ -1,0 +1,45 @@
+
+.BackBtn {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    padding: 1vw;
+    font-size: 1.2vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+.BackBtn button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.BackBtn button img {
+    width: 2vw;
+    height: auto;
+}
+
+.BackBtn p {
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: #0E0D35;
+}
+
+@media (max-width: 360px) {
+    .BackBtn {
+      gap: 4px;
+      padding: 8px;
+      font-size: 14px;
+      margin-top: 5vh;
+      margin-bottom: 3vh;
+    }
+  
+    .BackBtn button img {
+      width: 16px;
+    }
+  
+    .BackBtn p {
+      font-size: 14px;
+    }
+  }

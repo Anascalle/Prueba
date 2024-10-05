@@ -1,0 +1,99 @@
+#invitations_div_shadow{
+    margin-top: 10vw;
+    -webkit-box-shadow: 5px 6px 23px -4px rgba(124,124,124,0.222);
+-moz-box-shadow: 5px 6px 23px -4px rgba(124,124,124,0.222);
+box-shadow: 5px 6px 23px -4px rgba(124,124,124,0.222);
+width: 20vw;
+height: 40vw;
+border-radius: 25px;
+padding-right: 2vw;
+z-index: -1;
+}
+
+#invitations_div{
+    margin-left: 1vw;
+    margin-top: 2vw;
+}
+
+#invitation_text{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+#Invitation{
+    display: flex;
+    margin-top: 2vw;
+}
+
+#porfile_img{
+    width: 4vw;
+    height: 4vw;
+    display: flex;
+    align-self: center;
+    margin-right: 1vw;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vw;
+}
+
+#ocation{
+    font-weight: 700;
+}
+
+#date{
+    font-weight: 700;
+}
+
+span{
+    font-weight: 400;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    #Invitation {
+        flex-direction: row;
+        align-items: flex-start;
+        margin-left: 10vw ;
+        
+    }
+
+    #invitations_div_shadow{
+        margin-top: 300vw;
+        position: absolute;
+        width: 300vw !important;
+        height: auto!important;
+       margin-left: 8vw;
+        padding-right: 10vw;
+    }
+
+    #invitations_tittle{
+        font-size: larger;
+        margin-left: 10vw;
+    }
+p{
+    font-size: 15px;
+}
+    
+
+    #porfile_img {
+       width: 15vw !important;
+       height: 15vw !important;
+       margin-right: 5vw !important;
+       display: flex;
+       justify-self:start;
+    }
+
+    #Buttons {
+        width: 100%;
+        justify-content: space-between;
+    }
+    #invitation_text{
+        margin-left: 5vw !important;
+        width: 150vw !important;
+
+    }
+}
