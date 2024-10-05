@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./Nav.css";
 import useScroll from "../../../hooks/useScroll";
-import { auth, db } from "../../../utils/firebaseConfig"; 
+import { auth, db } from "../../../utils/firebaseConfig";
 import { onAuthStateChanged } from "firebase/auth";
 import { doc, getDoc } from "firebase/firestore";
 
