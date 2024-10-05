@@ -1,4 +1,4 @@
-import "./BackBtn.css";
+import "./BackBTn.css"
 import { useNavigate } from "react-router-dom";
 
 interface BackProp {
