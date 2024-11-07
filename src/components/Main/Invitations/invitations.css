@@ -1,13 +1,22 @@
 #invitations_div_shadow{
     margin-top: 10vw;
     -webkit-box-shadow: 5px 6px 23px -4px rgba(124,124,124,0.222);
--moz-box-shadow: 5px 6px 23px -4px rgba(124,124,124,0.222);
-box-shadow: 5px 6px 23px -4px rgba(124,124,124,0.222);
-width: 20vw;
-height: 40vw;
-border-radius: 25px;
-padding-right: 2vw;
-z-index: -1;
+    -moz-box-shadow: 5px 6px 23px -4px rgba(124,124,124,0.222);
+    box-shadow: 5px 6px 23px -4px rgba(124,124,124,0.222);
+    width: 20vw;
+    height: 40vw;
+    border-radius: 25px;
+    padding-right: 2vw;
+    z-index: -1;
+
+}
+
+#no-invitations-message{
+    text-align: center;
+    font-size: 1.2em;
+    color: #888;
+    margin-top: 20px;
+
 }
 
 #invitations_div{
@@ -18,7 +27,6 @@ z-index: -1;
 #invitation_text{
     display: flex;
     flex-direction: column;
-    width: auto;
 }
 
 #Invitation{
@@ -47,37 +55,43 @@ h2{
 #date{
     font-weight: 700;
 }
+#hour{
+    font-weight: 700;
+}
 
 span{
     font-weight: 400;
 }
 
-/* Estilos responsivos */
 @media (max-width: 768px) {
     #Invitation {
         flex-direction: row;
         align-items: flex-start;
-        margin-left: 10vw ;
-        
+        margin-left: 5vw ;  
     }
 
     #invitations_div_shadow{
         margin-top: 300vw;
         position: absolute;
-        width: 300vw !important;
+        width: 200vw !important;
         height: auto!important;
-       margin-left: 8vw;
-        padding-right: 10vw;
+        padding-right: 1vw;
+        
     }
 
     #invitations_tittle{
         font-size: larger;
         margin-left: 10vw;
     }
-p{
-    font-size: 15px;
-}
+
+    #no-invitations-message{
+        text-align: center;
+        font-size: 1.2em;
+        color: #888;
+        margin-top: 20px;
+        padding-bottom: 5%;
     
+    }
 
     #porfile_img {
        width: 15vw !important;
@@ -94,6 +108,6 @@ p{
     #invitation_text{
         margin-left: 5vw !important;
         width: 150vw !important;
-
+        padding-bottom: 5%;
     }
 }

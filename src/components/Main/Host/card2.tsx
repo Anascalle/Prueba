@@ -33,7 +33,7 @@ const Host: React.FC<{ userId: string }> = ({ userId }) => {
                     id={profile.id}
                     name={profile.name}
                     date={profile.date}
-                    url={profile.image}
+                    image={profile.image}
                     aria-hidden="false" // Asegura que el evento es visible
                   />
                 </SwiperSlide>

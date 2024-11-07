@@ -17,7 +17,7 @@ function LoginForm() {
 
     return (
         <div id='LogSpace'>
-            <img id="LogImg" src="https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/energetic-dance-floor-with-people-celebrating-birthday.webp?alt=media&token=b09e959b-bfa8-4cfd-b713-21ab511da847" alt="" />
+            <img id="LogImg" src="https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/LoginSigup%2FFista%20login.webp?alt=media&token=9fcd2b8c-053f-4a35-bb6a-ed558e6ba107" alt="" />
             <div className="registerSpace">
                 <form onSubmit={handleLogin} id="loginForm">
                     <LoginMessage

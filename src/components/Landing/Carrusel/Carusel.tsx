@@ -25,22 +25,22 @@ const CarouselBanner = () => {
       title: 'Eventix',
       text: 'Organize, create, and manage',
       image: isMobile 
-        ? "https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/smiley-girl-holding-drink-side-view_1.webp?alt=media&token=26c5a78a-314e-4233-8004-393954d018a6"
-        : "https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/medium-shot-young-people-having-fun-party_1.webp?alt=media&token=db0297ac-cb9d-4a2f-9e12-bcf9d7b61434",
+        ? "https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/ImgLanding%2FImg1%20caruseel%20mob.webp?alt=media&token=1a40d335-808e-4a34-b4b4-10b91b3a4065"
+        : "https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/ImgLanding%2FImg1%20caruusel.webp?alt=media&token=33ae14cc-287d-42c0-a2a6-a9171f6bed6a",
     },
     {
       title: 'Eventix',
       text: 'Organize, create, and manage',
       image: isMobile
-        ? "https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/9ab4cf94-27ab-4473-b351-ed10e38b6951_16-9-discover-aspect-ratio_default_0.webp?alt=media&token=4c8291f0-dd17-4232-8325-a7ee9a4043e7"
-        : "https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/9ab4cf94-27ab-4473-b351-ed10e38b6951_16-9-discover-aspect-ratio_default_0.webp?alt=media&token=4c8291f0-dd17-4232-8325-a7ee9a4043e7",
+        ? "https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/ImgLanding%2FImg2%20carrusel.webp?alt=media&token=be71b30c-5834-4e3e-bc63-df308450fe8b"
+        : "https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/ImgLanding%2FImg2%20carrusel.webp?alt=media&token=be71b30c-5834-4e3e-bc63-df308450fe8b",
     },
     {
       title: 'Eventix',
       text: 'Organize, create, and manage',
       image: isMobile
-        ? "https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/organizar-fiesta-familia-amigos-1024x683.webp?alt=media&token=07af3815-6e2c-4944-98a7-f4f9854411b3"
-        : "https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/organizar-fiesta-familia-amigos-1024x683.webp?alt=media&token=07af3815-6e2c-4944-98a7-f4f9854411b3",
+        ? "https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/ImgLanding%2FImg3%20carrusel.webp?alt=media&token=6a6cd5f1-8505-401c-87ee-10af252c08da"
+        : "https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/ImgLanding%2FImg3%20carrusel.webp?alt=media&token=6a6cd5f1-8505-401c-87ee-10af252c08da",
     },
   ];
 

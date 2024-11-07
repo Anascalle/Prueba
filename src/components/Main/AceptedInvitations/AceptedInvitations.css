@@ -10,8 +10,8 @@
     border-bottom-right-radius: 0px;
     padding-right: 1vw;
     position: absolute;
-    top: 60%; /* Ajusta según la ubicación deseada */
-    right: 0.5%; /* Ajusta según la ubicación deseada */
+    top: 60%;
+    right: 0.5%; 
  
 }
 
@@ -20,16 +20,18 @@
     margin-top: 2vw;
 }
 
-#invitation_text {
+#acepted_invitation_text {
     display: flex;
     flex-direction: column;
     width: 10vw;
+    margin-left: 5%;
 }
 
 #acepted_invitation {
     display: flex;
     margin-top: 2vw;
 }
+
 
 #porfile_img {
     width: 4vw;
@@ -79,6 +81,10 @@ span {
         margin-top: 2vw;
     }
     
+    #text_accepted_p{
+        font-size: 15px;
+        margin-top: 30px;
+    }
     #acepted_invitations_tittle{
         font-size: larger;
     }
@@ -112,6 +118,12 @@ span {
     
     #invitations-p{
         font-size: px;
+    }
+
+    #no_accepted_inv{
+        font-size: 19.2px;
+        text-align: center;
+        color: rgb(136, 136, 136);
     }
 
 

@@ -10,15 +10,15 @@ const FunctionBtn: React.FC<FunctionProp> = (prop) =>{
     return(
         <div className="FunctionBtn">
             <button onClick={prop.NextShooping}>
-                <img src="https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/cart%20remove.webp?alt=media&token=28e87dcc-db6b-4ae1-9930-dde0bd1f4138" alt="card shopping icon" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/DetailScreen%2FShopping.webp?alt=media&token=e4fcb8ff-dc4f-440d-9eb7-a5026689983e" alt="card shopping icon" />
                 Shopping
             </button>
             <button onClick={prop.NextFound}>
-                <img src="https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/bill%20dollar.webp?alt=media&token=bd78246c-f823-480d-970c-dafcd1cb4198" alt="bill dollar icon" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/DetailScreen%2FFondo.webp?alt=media&token=111c0ea2-b645-40ca-8a8b-581d2bbc9fd0" alt="bill dollar icon" />
                 Found
             </button>
             <button onClick={prop.NextInvite}>
-                <img src="https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/Group%201000004492.webp?alt=media&token=44607f6a-e0da-4848-9470-32938dd70d3b" alt="invited icon" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/DetailScreen%2FAgregar.webp?alt=media&token=d6fdfcac-2a97-40a8-b94a-9c8dcaecd8fc" alt="invited icon" />
                 Invite
             </button>
         </div>  

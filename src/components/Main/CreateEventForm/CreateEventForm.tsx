@@ -26,7 +26,6 @@ const CreateEventForm: React.FC = () => {
         handleClose,
         handleOpenModal,
         isModalOpen,
-        eventImage,
         amount,
         setAmount,
     } = useCreateEventForm();
@@ -67,7 +66,6 @@ const CreateEventForm: React.FC = () => {
                         lng={lng}
                         onMapClick={onMapClick}
                         onClose={handleClose}
-                        eventImage={eventImage}
                         amount={amount || 0}
                         setAmount={setAmount}
                     />

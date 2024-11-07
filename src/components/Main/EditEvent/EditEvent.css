@@ -1,5 +1,5 @@
 
-.create_event_form {
+.edit_event_form{
     position: fixed;
     top: 50%;
     left: 50%;
@@ -8,7 +8,7 @@
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.314);
     border-radius: 20px; 
-    z-index: 10;
+    z-index: 100;
     width: 90%;
     max-width: 500px;
     max-height: 90vh;
@@ -40,7 +40,7 @@
 }
 
 
-.create_event_form h2 {
+.edit_event_form h2 {
     text-align: center;
     font-size: 1.2rem;
     margin-bottom: 10%;
@@ -55,7 +55,7 @@
 }
 
 
-.create_event_form label {
+.edit_event_form label {
     display: block;
     margin: 10px 0 5px;
     font-weight: bold;
@@ -64,9 +64,9 @@
    
 }
 
-.create_event_form input,
-.create_event_form select,
-.create_event_form textarea {
+.edit_event_form input,
+.edit_event_form select,
+.edit_event_form textarea {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
@@ -78,23 +78,23 @@
     box-sizing: border-box;
 }
 
-.create_event_form input:focus,
-.create_event_form select:focus,
-.create_event_form textarea:focus {
+.edit_event_form input:focus,
+.edit_event_form select:focus,
+.edit_event_form textarea:focus {
     border-color: #00B78C;
     outline: none;
     box-shadow: 0 0 5px rgba(0, 192, 135, 0.5);
 }
 
 
-.create_event_form .map {
+.edit_event_form .map {
     margin: 15px 0;
     border-radius: 10px;
     overflow: hidden;
 }
 
 
-.create_event_form button[type="submit"] {
+.edit_event_form button[type="submit"] {
     width: 100%;
     font-family: "Poppins", system-ui;
     font-weight: 600;
@@ -111,7 +111,7 @@
     margin: 20px auto;
 }
 
-.create_event_form button[type="submit"]:hover {
+.cedit_event_form button[type="submit"]:hover {
     background-color: #009f6b;
 }
 
@@ -124,24 +124,4 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); 
     z-index: 5; 
-}
-
-@media (max-width: 768px) {
-    .create_event_form {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: white;
-        padding: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.314);
-        border-radius: 20px; 
-        z-index: 10;
-        width: 80%;
-        max-width: 500px;
-        max-height: 90vh;
-        overflow-y: auto;
-        font-family: "Poppins", system-ui;
-    }
-
 }

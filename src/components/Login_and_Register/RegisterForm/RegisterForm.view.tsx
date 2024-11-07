@@ -19,7 +19,7 @@ const RegisterForm: React.FC = () => {
 
     return (
         <div id='SignSpace'>
-            <img id='SignImg' src="https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/istockphoto-486420378-612x612.webp?alt=media&token=fc203559-84d2-40d8-8278-9b1c27d2196e" alt="" />
+            <img id='SignImg' src="https://firebasestorage.googleapis.com/v0/b/programacion-ec39e.appspot.com/o/LoginSigup%2FSingin.webp?alt=media&token=3ca542c7-b2db-4bbc-990b-760f49b478d1" alt="" />
             <div className='registerSpace'>
                 <form id="registerForm" onSubmit={handleRegister}>
                     <RegisterMessage

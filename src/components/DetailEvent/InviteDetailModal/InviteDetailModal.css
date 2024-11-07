@@ -1,0 +1,260 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: #fff;
+  padding: 2%; 
+  border-radius: 10px; 
+  width: 90%; 
+  max-width: 600px; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  overflow-y: auto; 
+  max-height: 80%; 
+}
+.sent_title, .add_title{
+  color: #2eae85;
+}
+.add_title{
+  margin-bottom: 5%;
+}
+
+.searchInput {
+  width: 95%;
+  padding: 2%;
+  margin-bottom: 2%;
+  border-radius: 5px; 
+  border: 1px solid #ccc;
+  transition: border-color 0.3s;
+}
+
+.searchInput:focus {
+  border-color: #2eae85;
+  outline: none; 
+}
+
+.modalActions {
+  display: flex;
+  justify-content: flex-end; 
+  margin-top: 2%;
+}
+
+.Addguest_button {
+  padding: 2% 5%;
+  width: 100%;
+  background-color: #2eae85;
+  color: white;
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+  margin-right: 2%;
+  transition: background-color 0.3s; 
+}
+
+.eliminate_guest {
+  width: 20%; 
+  padding: 5%;
+  background-color: #2eae85; 
+  color: white;
+  border: none;
+  border-radius: 50%; 
+  cursor: pointer;
+  margin-left: auto; 
+  transition: background-color 0.3s; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
+ .closemodal_button {
+  width: 40px; 
+  height: 40px;
+  background-color: #2eae85; 
+  color: white;
+  border: none;
+  border-radius: 50%; 
+  cursor: pointer;
+  margin-left: auto; 
+  transition: background-color 0.3s; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+button:hover {
+  background-color: #248d6d; 
+}
+
+button:disabled {
+  background-color: #ccc; 
+  cursor: not-allowed;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 2%; 
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.3s; 
+}
+
+li:hover {
+  background-color: #f0f0f0; 
+}
+
+.selected-users {
+  margin-top: 2%; 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.selected-user-card {
+  display: flex; 
+  align-items: center; 
+  padding: 2%;
+  margin-right: 2%;
+  width: 30%;
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  margin-bottom: 2%; 
+}
+
+.selected-user-image {
+  width: 25%; 
+  height: auto; 
+  border-radius: 50%; 
+  margin-right: 2%; 
+}
+
+.user-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 1%;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.user-list div {
+  padding: 10px;
+  display: flex;
+  width: 95%;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.user-list div:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.02);
+}
+
+.user-list img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+
+  .sent_title, .add_title{
+    color: #2eae85;
+  }
+  .add_title{
+    margin-bottom: 5%;
+    font-size: 25px;
+  }
+
+  .sent_title{
+    margin-top: 10%;
+  }
+
+  .user-name{
+    font-size: 12px;
+  }
+
+  .user-list div {
+    padding: 10px;
+    display: flex;
+    width: 91%;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    margin-bottom: 5%;
+  }
+  
+  .user-list div:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.01);
+  }
+  .selected-users {
+    margin-top: 2%; 
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+  }
+  
+  .selected-user-card {
+    width: 50%;
+  }
+
+  #selected_user_name{
+    font-size: 12px;
+  }
+
+  .eliminate_guest {
+    width: 22%; 
+    padding: 5%;
+    background-color: #2eae85; 
+    color: white;
+    border: none;
+    border-radius: 50%; 
+    cursor: pointer;
+    margin-left: auto; 
+    transition: background-color 0.3s; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+  }
+  .closemodal_button {
+    width: 30px; 
+    height: 30px;
+    background-color: #2eae85; 
+    color: white;
+    border: none;
+    border-radius: 50%; 
+    cursor: pointer;
+    margin-left: auto; 
+    transition: background-color 0.3s; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+  }
+  .modalContent {
+    background-color: #fff;
+    padding: 5%; 
+    border-radius: 10px; 
+    width: 80%; 
+    max-width: 600px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    overflow-y: auto; 
+    max-height: 80%; 
+  }
+}

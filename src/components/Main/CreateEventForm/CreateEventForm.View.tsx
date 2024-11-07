@@ -25,7 +25,7 @@ interface CreateEventFormViewProps {
     setAmount: (value: number) => void;
     onMapClick: (event: any) => void; 
     onClose: () => void; 
-    eventImage: string | null; 
+  
 }
 
 const CreateEventFormView: React.FC<CreateEventFormViewProps> = ({
@@ -60,6 +60,8 @@ const CreateEventFormView: React.FC<CreateEventFormViewProps> = ({
     useEffect(() => {
         setCoordinates({ lat, lng });
     }, [lat, lng]);
+
+    
 
     return (
         <div aria-label="create events form" className="create_event_form">

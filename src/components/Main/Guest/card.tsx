@@ -7,13 +7,12 @@ import 'swiper/css/scrollbar';
 import "./guest.css";
 import useGuestEvents from "../../../hooks/useGuest";
 
-
 const Guest: React.FC<{ userId: string }> = React.memo(({ userId }) => {
-  const { profiles, slidesPerView, loading, error } = useGuestEvents(userId); // Utiliza el hook
+  const { profiles, slidesPerView, loading, error } = useGuestEvents(userId); 
 
   return (
     <div aria-label="carousel guest events" id="Guest_card">
-      <h2 aria-label="carousel guest events title" id="Guest_tittles">You are Guest</h2>
+      <h2 aria-label="carousel guest events title" id="Guest_tittle">You are Guest</h2>
       <div aria-label="carousel guest events" id="carousel">
         {loading ? (
           <p id="loading" aria-live="polite">Loading events...</p>
