@@ -1,0 +1,52 @@
+
+.BackBtnEvents {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    padding: 1vw;
+    font-size: 1.2vw;
+    padding-top: 18vh;
+    margin-bottom: 5vh;
+    margin-left: 7vw;
+}
+
+.BackBtnEvents button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.BackBtnEvents button img {
+    width: 2vw;
+    height: auto;
+}
+
+.BackBtnEvents p {
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: #0E0D35;
+}
+
+@media (max-width: 360px) {
+  .BackBtnEvents {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px;
+      font-size: 14px;
+      padding-top: 12vh;
+      margin-bottom: 4vh;
+      margin-left: 5vw;
+  }
+
+  .BackBtnEvents button img {
+      width: 20px;
+      height: auto;
+  }
+
+  .BackBtnEvents p {
+      font-size: 14px;
+      font-weight: bold;
+      color: #0E0D35;
+  }
+}

@@ -1,0 +1,40 @@
+.receipt-section {
+    display: flex;
+    flex-direction: row;
+    gap: 7vw;
+    padding-bottom: 10vh;
+}
+
+
+.grid-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 4vw;
+    width: 70%;
+    margin-left: 7vw;
+    margin-top: 5vh;
+}
+
+
+@media (max-width: 360px) {
+    .receipt-section {
+        flex-direction: column-reverse; 
+        gap: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    .cards-secction {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-card {
+        grid-template-columns: 1fr; 
+        gap: 2vh;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-top: 3vh;
+        width: 50%;
+    }
+    
+}
