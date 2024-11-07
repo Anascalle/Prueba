@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import "./shoppingMap.css";
+import "./ShoppingMap.css"
 import Consumption from "./Consumption/Consumption.view";
 import useShoppingItems from '../../hooks/useShoppingItem';
 import { useConsumption } from "../../hooks/useConsumption";
